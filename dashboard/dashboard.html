@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Biblioteca de Vídeos de Futebol</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="app-layout">
+    
+    <aside class="sidebar">
+      <div class="logo">FTB.Library</div>
+      <nav>
+        <button class="nav-btn active" id="menu-all">📂 Todos os Vídeos</button>
+        <button class="nav-btn" id="menu-favs">⭐ Favoritos</button>
+      </nav>
+      <div class="export-box" style="margin-top: auto; padding-top: 20px;">
+        <button id="btn-export-json" style="width: 100%; background: #21262d; border: 1px solid #30363d; color: white; padding: 8px; border-radius: 6px; cursor: pointer;">Exportar JSON</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="search-bar-container">
+        <input type="text" id="search-input" placeholder="Pesquise instantaneamente por título, categoria, escalão ou #tag...">
+      </header>
+
+      <section class="video-grid" id="video-grid">
+        </section>
+    </main>
+  </div>
+
+  <div class="modal" id="video-modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2 id="modal-title" style="margin-top: 0; color: #58a6ff;"></h2>
+      
+      <div class="video-container" id="modal-video-box" style="margin: 15px 0;">
+        </div>
+      
+      <div class="modal-meta" style="font-size: 14px;">
+        <h5 style="margin: 10px 0 5px 0; color: #fff; font-size: 14px;">Notas de Treino:</h5>
+        <p id="modal-notes" style="white-space: pre-wrap; color: #c9d1d9; background: #161b22; padding: 12px; border-radius: 8px; margin: 0 0 15px 0; border: 1px solid #30363d; max-height: 100px; overflow-y: auto;"></p>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div id="modal-tags"></div>
+          <a id="modal-raw-url" target="_blank" style="color: #58a6ff; text-decoration: none; font-weight: bold; font-size: 13px;">Link Original ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
