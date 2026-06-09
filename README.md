@@ -1,8 +1,6 @@
-# Aqui está uma estrutura de ficheiro README.md profissional, otimizada para o teu projeto Football Video Library. Podes copiar e colar este conteúdo diretamente para um ficheiro chamado README.md na raiz do teu repositório.
+# Football Video Library ⚽️
 
 # 
-
-# Football Video Library ⚽️
 
 # A Football Video Library é uma extensão para Google Chrome criada para treinadores e entusiastas de futebol que precisam de organizar, guardar e visualizar rapidamente exercícios e vídeos técnicos das suas redes sociais favoritas (YouTube, Instagram, Facebook, TikTok).
 
@@ -10,7 +8,7 @@
 
 # 🚀 Funcionalidades
 
-# Captura Inteligente: Guarda vídeos de várias plataformas diretamente a partir do teu navegador.
+# Captura Inteligente: Guarda vídeos de várias plataformas diretamente a partir do navegador.
 
 # 
 
@@ -40,21 +38,15 @@
 
 # 🛠️ Tecnologias Utilizadas
 
-# Manifest V3: Arquitetura moderna de extensões Chrome.
-
 # 
+
+# Manifest V3: Arquitetura moderna de extensões Chrome.
 
 # JavaScript (ES6+): Lógica da aplicação e manipulação do DOM.
 
-# 
-
 # Chrome Storage API: Para persistência local de dados.
 
-# 
-
 # Declarative Net Request: Para gestão de cabeçalhos de segurança e embeds.
-
-# 
 
 # CSS3: Interface moderna e responsiva (Dark Mode).
 
@@ -125,6 +117,4 @@
 # Este projeto está licenciado sob a licença MIT - veja o ficheiro LICENSE para mais detalhes.
 
 # 
-
-# Desenvolvido com ⚽️ para facilitar o planeamento de treino.
 
