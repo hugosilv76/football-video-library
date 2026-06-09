@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <h2>FTB.Library</h2>
+      <button id="open-dashboard" title="Abrir Biblioteca">📁 Ver Biblioteca</button>
+    </div>
+
+    <form id="save-video-form">
+      <div class="form-group">
+        <label>Título do Exercício</label>
+        <input type="text" id="title" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Categoria</label>
+          <select id="category" required>
+            <option value="Técnica">Técnica</option>
+            <option value="Tática">Tática</option>
+            <option value="Física">Física</option>
+            <option value="Guarda-redes">Guarda-redes</option>
+            <option value="Jogos Reduzidos">Jogos Reduzidos</option>
+            <option value="Competição">Competição</option>
+            <option value="Aquecimento">Aquecimento</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Escalão</label>
+          <select id="age-group" required>
+            <option value="Sub-7">Sub-7</option>
+            <option value="Sub-8">Sub-8</option>
+            <option value="Sub-9">Sub-9</option>
+            <option value="Sub-10">Sub-10</option>
+            <option value="Sub-11">Sub-11</option>
+            <option value="Sub-12">Sub-12</option>
+            <option value="Sub-13">Sub-13</option>
+            <option value="Sub-14">Sub-14</option>
+            <option value="Sub-16">Sub-16</option>
+            <option value="Seniores">Seniores</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Tags (separadas por vírgula)</label>
+        <input type="text" id="tags" placeholder="Passe, Pressão, Finalização">
+      </div>
+
+      <div class="form-group" style="margin-bottom: 12px;">
+        <label for="thumbnail" style="display: block; font-size: 12px; color: #8b949e; margin-bottom: 4px; font-weight: 500;">Link da Imagem de Capa (Opcional):</label>
+        <input type="url" id="thumbnail" placeholder="Cola o link de uma imagem (.jpg, .png)..." style="width: 100%; background: #161b22; border: 1px solid #30363d; color: white; padding: 6px; border-radius: 6px; box-sizing: border-box; font-size: 13px;">
+      </div>
+
+      <div class="form-group">
+        <label>Notas Pessoais</label>
+        <textarea id="notes" rows="3" placeholder="Instruções, espaço, número de jogadores..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-save">Guardar Exercício</button>
+    </form>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
