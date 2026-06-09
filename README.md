@@ -5,6 +5,7 @@ A Football Video Library é uma extensão para Google Chrome criada para treinad
 #
 
 🚀 Funcionalidades
+
 Captura Inteligente: Guarda vídeos de várias plataformas diretamente a partir do navegador.
 Biblioteca Centralizada: Visualiza todos os teus exercícios num dashboard organizado.
 Organização por Metadados: Classifica os teus vídeos com categorias, escalões e etiquetas (tags).
@@ -16,6 +17,7 @@ Exportação JSON: Faz o backup da tua biblioteca facilmente.
 # 
 
 🛠️ Tecnologias Utilizadas
+
 Manifest V3: Arquitetura moderna de extensões Chrome.
 JavaScript (ES6+): Lógica da aplicação e manipulação do DOM.
 Chrome Storage API: Para persistência local de dados.
@@ -25,9 +27,10 @@ CSS3: Interface moderna e responsiva (Dark Mode).
 #
 
 📦 Como Instalar
+
 Clona este repositório:
 Bash
-git clone https://github.com/teu-usuario/football-video-library.git
+git clone https://github.com/teu-user/football-video-library.git
 Abre o Chrome: Vai a chrome://extensions/.
 Ativa o Modo de Programador: No canto superior direito.
 Carrega a extensão: Clica em "Carregar sem empacotamento" (Load unpacked) e seleciona a pasta do projeto.
@@ -36,6 +39,7 @@ Fixa o ícone: Clica no ícone do puzzle (Extensões) e fixa o "Football Video L
 #
 
 📝 Como Utilizar
+
 Navega até um vídeo de exercício no teu navegador.
 Clica no ícone da Football Video Library na tua barra de ferramentas.
 Preenche os detalhes do vídeo (Título, Categoria, Notas e Tags) e clica em Guardar.
@@ -45,11 +49,13 @@ No dashboard, podes filtrar, pesquisar, editar favoritos ou apagar vídeos.
 #
 
 🤝 Contribuições
+
 Este é um projeto pessoal em constante evolução. Sinta-se à vontade para abrir Issues ou enviar Pull Requests para melhorias na interface ou novas funcionalidades de filtragem.
 
 #
 
 📄 Licença
+
 Este projeto está licenciado sob a licença MIT - veja o ficheiro LICENSE para mais detalhes.
  
 
