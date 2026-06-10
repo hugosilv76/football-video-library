@@ -30,7 +30,7 @@ CSS3: Interface moderna e responsiva (Dark Mode).
 
 Clona este repositório:
 Bash
-git clone https://github.com/teu-usuario/football-video-library.git
+git clone https://github.com/utilizador/football-video-library.git
 Abre o Chrome: Vai a chrome://extensions/.
 Ativa o Modo de Programador: No canto superior direito.
 Carrega a extensão: Clica em "Carregar sem empacotamento" (Load unpacked) e seleciona a pasta do projeto.
